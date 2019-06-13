@@ -1,0 +1,100 @@
+
+@media screen and (max-width: 1200px){
+/*::::::::::::::::Banner responsive css start here:::::::::::::::::*/
+.banner h1{
+	font-size: 48px;
+}
+/*::::::::::::::::Banner responsive css end here:::::::::::::::::*/
+}
+
+@media screen and (max-width: 992px){
+	
+.nav-link-eff{
+	border-bottom: 4px solid transparent;
+	transition: all ease-in-out 0.4s;
+}
+.nav-link-eff:hover{
+	border-bottom: 4px solid #fff;
+	border-radius: 10px;
+}
+/*::::::::::::::::Banner responsive css start here:::::::::::::::::*/
+.banner h1{
+	font-size: 40px;
+}
+
+
+/*::::::::::::::::Banner responsive css end here:::::::::::::::::*/
+
+
+/*::::::::::::::::Awards section css start here:::::::::::::::::*/
+.card-award{
+	width: 48%;
+}
+/*::::::::::::::::Awards section css end here:::::::::::::::::*/
+}
+
+
+@media screen and (max-width: 768px) { 
+/*::::::::::::::::Banner responsive css start here:::::::::::::::::*/
+.banner	{
+	color: #fff;
+}
+.banner h1{
+	font-size: 40px;
+}
+.social-icons a{
+	color: #fff;
+}
+.social-icons a:hover{
+	color: #000;
+
+}
+/*::::::::::::::::Banner responsive css end here:::::::::::::::::*/
+
+/*::::::::::::::::About section css start here:::::::::::::::::*/
+
+.height-about1{
+	height: auto;
+}
+
+/*::::::::::::::::About section css end here:::::::::::::::::*/
+/*::::::::::::::::Awards section css start here:::::::::::::::::*/
+.card-award{
+	width: 100%;
+}
+/*::::::::::::::::Awards section css end here:::::::::::::::::*/
+
+}
+
+
+
+@media screen and (max-width: 576px){
+/*::::::::::::::::Banner responsive css start here:::::::::::::::::*/
+.banner	{
+	color: #fff;
+}
+.banner h1{
+	font-size: 40px;
+}
+.social-icons a{
+	color: #fff;
+}
+.social-icons a:hover{
+	color: #000;
+
+}
+/*::::::::::::::::Banner responsive css end here:::::::::::::::::*/
+
+/*::::::::::::::::Awards section css start here:::::::::::::::::*/
+.card-award{
+	width: 100%;
+}
+/*::::::::::::::::Awards section css end here:::::::::::::::::*/
+
+/*::::::::::::::::contact section css start here:::::::::::::::::*/
+
+input{
+	width: 100%!important;
+}
+/*::::::::::::::::contact section css end here:::::::::::::::::*/
+}

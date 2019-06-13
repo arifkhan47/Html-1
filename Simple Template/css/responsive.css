@@ -1,0 +1,164 @@
+@media screen and (min-width: 1024px) {
+    .order-1{
+        order: 2;
+    }
+    .order-2{
+        order: 1;
+    }
+}
+
+/*::::::css for below 1024px ::::::::*/
+@media screen and (max-width: 1024px) {
+    .container_{
+        width: 95%;
+    }
+  /*::::::::section 1 css start here::::::::::*/   
+    .section_1{
+        padding: 40px 0px 46px 0px;
+        background-color: #F3F2F8;  
+    }
+ /*::::::::section 1 css  end here::::::::::*/   
+
+/*::::::::section 2 css start here::::::::::*/   
+    .section_2{
+        padding: 40px 0px 46px 0px;
+        background-color: #fff;  
+        position: relative;
+        overflow: hidden;
+        
+    }
+    .section_1 h3{
+        font-size: 21px;
+        letter-spacing: 0.9px;
+    }
+    .sec2_img{
+        overflow: hidden;
+        position: static;
+        z-index: 1;
+        height: 385px;
+        width: 286px;
+        margin: 0 auto;
+        
+    }
+    .sec2_img img{
+
+        height: 100%;
+        width: 100%;       
+    }
+    .section_2 ul{
+        padding-left: 24px;
+    }
+ /*::::::::section 2 css  end here::::::::::*/   
+
+
+
+ /*::::: section_3 css start here::::::::*/
+.section_3{
+    padding: 40px 0px 80px 0px;
+    background-color: #F3F2F8;  
+}
+ /*::::: section_3 css end here::::::::*/
+ 
+}
+  @media screen and (max-width: 992px) {
+/*::::::::section 2 css start here::::::::::*/   
+    .section_2{
+        padding: 40px 0px 46px 0px;
+        background-color: #fff;  
+        position: relative;
+        overflow: visible;
+        height: auto;
+    }
+    .sec2_img{
+       height: 325px;
+       width: 226px;
+    }
+    .sec2_img  > img{
+        height: 100%;
+        width: 100%;
+     }
+     
+ /*::::::::section 2 css  end here::::::::::*/  
+
+/*::::: section_4 css start here::::::::*/
+.section_4{
+    height: 400px;
+    position: relative;
+    overflow: visible;
+}
+.section_4 .sec_4_txtOver{
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    top: -42px;
+    padding: 30px 30px 38px 32px;
+    background-color: #fff;
+    
+}
+/*::::: section_4 css end here::::::::*/
+
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .container_{
+        width: 90%;
+    }    
+    .about_header{
+        height: 260px;
+        background-image: url("../images/1.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    
+/*::::: section_4 css start here::::::::*/
+.section_4{
+    height: auto;
+    padding: 12px;
+    background-image: none;
+}
+.section_4 .sec_4_txtOver{
+    position: static;
+    padding: 20px 16px 16px 12px;
+    background-color: rgba(255,255,255,0.5);
+    
+}
+
+.section_4 p{
+    line-height: 1.2em;
+ 
+}
+.Sec_4img{
+    background-image: url('../images/3.jpg');  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+}
+/*::::: section_4 css end here::::::::*/
+
+
+}   
+
+
+@media screen and (max-width: 375px) {
+    .Sec_4img{
+        background-image: url('../images/3.jpg');  
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 180px;
+    }
+    section  h3{
+        font-size: 16px!important;
+    }
+    body{
+        font-size: 12px;
+    }
+    
+}

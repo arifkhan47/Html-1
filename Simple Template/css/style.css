@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+}
+
+/*"""""""""""""comman css start here""""""""""""""""""*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.red{
+    color: #FA6042;
+}
+.blue{
+    color: #010066;
+}
+/*"""""""""""""comman css end here""""""""""""""""""*/
+
+.about_header{
+    height: 390px;
+    background-image: url("../images/1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.container_{
+    width: 916px;
+    margin: 0 auto;
+}
+
+/*::::: section_1 css start here::::::::*/
+.section_1{
+    padding: 80px 0px 130px 0px;
+    background-color: #F3F2F8;  
+}
+.section_1 h3{
+    font-size: 21px;
+    letter-spacing: 0.9px;
+}
+/*::::: section_1 css end here::::::::*/
+
+/*::::: section_2 css start here::::::::*/
+.section_2{
+    padding: 80px 0px 86px 0px;
+    background-color: #fff;  
+    position: relative;
+    overflow: visible;
+    height: 530px;
+}
+.section_1 h3{
+    font-size: 21px;
+    letter-spacing: 0.9px;
+}
+.sec2_img{
+    width: 452px;
+    height: 650px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    top: -140px;
+
+}
+/*::::: section_2 css end here::::::::*/
+
+
+/*::::: section_3 css start here::::::::*/
+.section_3{
+    padding: 140px 0px 120px 0px;
+    background-color: #F3F2F8;  
+}
+.section_3 h3{
+    font-size: 21px;
+    letter-spacing: 0.9px;
+ 
+}
+/*::::: section_3 css end here::::::::*/
+
+
+/*::::: section_4 css start here::::::::*/
+.section_4{
+    background-image: url('../images/3.jpg');  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    overflow: visible;
+}
+.section_4 .sec_4_txtOver{
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    top: -42px;
+    padding: 70px 30px 68px 32px;
+    background-color: #fff;
+    
+}
+.section_4 h3{
+    font-size: 21px;
+    letter-spacing: 0.9px;
+ 
+}
+.section_4 ul{
+    padding-left: 24px;
+}
+.section_4 p{
+    line-height: 1.2em;
+ 
+}
+/*::::: section_4 css end here::::::::*/

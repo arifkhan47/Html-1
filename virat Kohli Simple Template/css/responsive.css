@@ -1,0 +1,68 @@
+
+@media (max-width: 768px) { 
+/*::::::::::::::::section1 css start here:::::::::::::::::*/
+.section1{
+	background-size: 160% 120%;
+}
+.section1 .heading{
+	padding: 8px 24px;
+}
+.section1 .heading h1{
+	
+	font-size: 32px;
+	
+}
+
+/*::::::::::::::::section1 css end here:::::::::::::::::*/
+
+/*::::::::::::::::section3 css start here:::::::::::::::::*/
+.section3{
+	background-size: 160% 120%;
+}
+/*::::::::::::::::section3 css end here:::::::::::::::::*/
+/*::::::::::::::::section5 css start here:::::::::::::::::*/
+.section5{
+	height: 60vh;
+	background-size: 180% 100%;
+}
+/*::::::::::::::::section5 css end here:::::::::::::::::*/
+/*::::::::::::::::section7 css start here:::::::::::::::::*/
+.section7{
+	height: 80vh;
+	background-size: 180% 100%;
+}
+/*::::::::::::::::section7 css end here:::::::::::::::::*/
+
+ }
+ 
+ @media (max-width: 576px) { 
+/*::::::::::::::::section1 css start here:::::::::::::::::*/
+.section1{
+	background-size: 160% 120%;
+}
+.section1 .heading{
+	padding: 8px 16px;
+}
+.section1 .heading h1{
+	font-size: 24px;
+}
+/*::::::::::::::::section1 css end here:::::::::::::::::*/
+/*::::::::::::::::section3 css start here:::::::::::::::::*/
+.section3{
+	background-size: 200% 100%;
+	height: 80vh;
+}
+/*::::::::::::::::section3 css end here:::::::::::::::::*/
+/*::::::::::::::::section5 css start here:::::::::::::::::*/
+.section5{
+	height: 50vh;
+	background-size: 160% 160%;
+}
+/*::::::::::::::::section5 css end here:::::::::::::::::*/
+/*::::::::::::::::section7 css start here:::::::::::::::::*/
+.section7{
+	height: 80vh;
+	background-size: 170% 100%;
+}
+/*::::::::::::::::section7 css end here:::::::::::::::::*/
+ }
